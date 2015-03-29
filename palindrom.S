@@ -17,8 +17,6 @@
 	string: .fill 100,1,0
 	string_len: .long 0
 	
-	palindrom: .long 0
-	
 .section .text
 .globl main
 
