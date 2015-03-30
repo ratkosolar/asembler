@@ -195,10 +195,10 @@ sort_ostali_karakteri:
 	jg sort_ostali_karakteri_sa_ostalima
 	
 	cmpb $'Z', %dl
-	jle sort_ostali_karakteri
+	jle sort_petlja
 	
 	cmpb $'a', %dl
-	jge sort_ostali_karakteri
+	jge sort_petlja
 	
 	jmp sort_ostali_karakteri_sa_ostalima
 
